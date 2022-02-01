@@ -64,7 +64,7 @@
     margin-left: 5%;
     margin-top: 52px;
     @media (min-width: 768px){
-        width:27%;
+        width:30%;
         margin-left: 0%;
     }
   
@@ -96,10 +96,7 @@
          }
 
         &_meal {
-            @media (max-width: 768px){
-                width: 83%;
-             }
-            width: 89%;
+            width: 100%;
             height: 30%;
             background-color: white;
             border-radius: 17px;
@@ -108,7 +105,6 @@
             justify-content: space-between;
             transition: transform 1.5s ease-in-out;
             position: relative;
-            padding-right: 70px;
             transition: all 1s ease-in-out;
             overflow: hidden;
         
@@ -123,29 +119,25 @@
                 display: inline;
                 transition: all 0.7s ease-in-out;
                 transform: translateX(50px);
-                /* Carlos Sousa Caldas came here*/
               }
             
             &:hover{
                 transform: scale(1.06);
-            box-shadow: 0px 0px 10px 0px #20c7edc6;
+                box-shadow: 0px 0px 10px 0px #20c7edc6;
             }
             &:hover &_check {
                 padding: 0 30px;
                 transform: translateX(0);
-
                 margin-right: 0;
-              
             }
             &:hover &_price {
-                padding-right: 50px;
+                margin-right: 70px;
                transition: all 0.7s ease-in-out 
             }
            
             &:hover &_check i {
                 animation:rotation 0.8s ease-in-out;      
             }
-
 
             &_contents {
                 display: flex;
@@ -177,7 +169,6 @@
             &_price {
                 width: 53px;
                 height: 100%;
-                position: absolute;
                 right: 5px;
                 display: flex;
                 align-items: flex-end;
