@@ -1,0 +1,1300 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  .nav_bar_img {
+    width: 155px;
+    margin-top: 11px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 87px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .nav_bar_img {
+    width: 230px;
+  }
+}
+@media (min-width: 992px) {
+  .nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 87px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .nav_bar_img {
+    width: 280px;
+  }
+}
+.footer_container {
+  width: 100%;
+  height: 215px;
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+}
+.footer_container_logo {
+  padding-top: 18px;
+  padding-left: 30px;
+}
+.footer_container_logo a {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+}
+.footer_container_links {
+  padding-left: 30px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.footer_container_link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer_container_link_pushA {
+  margin-left: 14px;
+}
+.footer_container_link_pushB {
+  margin-left: 10px;
+}
+.footer_container_link:hover {
+  color: #9356DC;
+  text-decoration: underline;
+}
+
+/* @media (max-width: 768px) { } */
+.location {
+  background-color: #dfdfdfba;
+  height: 52px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 97%;
+  width: 50%;
+  border-style: none;
+  background-color: #e8e8e8ba;
+  margin-left: 10px;
+  font-weight: 700;
+}
+input:focus {
+  color: #9356DC;
+  outline: none;
+}
+
+.banner {
+  width: 100%;
+  height: 350px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner_title {
+  text-align: center;
+  width: 316px;
+  margin-top: -11px;
+  color: black;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_title {
+    width: 389px;
+  }
+}
+@media (min-width: 992px) {
+  .banner_title {
+    width: 517px;
+  }
+}
+.banner_p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -7px;
+}
+.banner_button {
+  opacity: 1;
+  background: linear-gradient(180deg, #ff78d9 0%, #9356dc 100%);
+  color: white;
+  padding: 0 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  height: 58px;
+  border: none;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: transform 0.7s ease-in-out 0.1s;
+}
+.banner_button:hover {
+  box-shadow: 0px 0px 13px 0px #20c7edc6;
+  opacity: 0.85;
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.functionaly {
+  width: 100%;
+  margin-top: -20px;
+  height: 435px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .functionaly {
+    height: 287px;
+  }
+}
+.functionaly h2 {
+  align-self: normal;
+  margin-left: 20px;
+  margin-top: -23px;
+}
+@media (min-width: 768px) {
+  .functionaly h2 {
+    margin-top: 0;
+  }
+}
+.functionaly_container {
+  width: 90%;
+  height: 62%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .functionaly_container {
+    flex-direction: row;
+    margin-top: -24px;
+  }
+}
+.functionaly_option {
+  width: 90%;
+  height: 75px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.functionaly_option:hover {
+  background-color: #f5edff;
+}
+.functionaly_option:hover .functionaly_icon {
+  color: #9356DC;
+}
+@media (min-width: 768px) {
+  .functionaly_option {
+    width: 30%;
+  }
+}
+.functionaly_number {
+  background-color: #9356DC;
+  color: white;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: -13px;
+}
+.functionaly_icon {
+  margin-left: 33px;
+  position: absolute;
+  font-size: 125%;
+  color: grey;
+}
+.functionaly_text {
+  font-weight: 500;
+  margin-left: 77px;
+}
+
+.restaurants {
+  width: 100%;
+  height: 1100px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.restaurants_h2 {
+  padding-top: 62px;
+  align-self: normal;
+  margin-left: 20px;
+  margin-top: -23px;
+}
+@media (min-width: 768px) {
+  .restaurants {
+    height: 630px;
+  }
+}
+@media (min-width: 992px) {
+  .restaurants {
+    height: 420px;
+  }
+}
+.restaurants_container {
+  width: 88%;
+  height: 86%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .restaurants_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .restaurants_container {
+    width: 98%;
+  }
+}
+.restaurants_container_link {
+  display: contents;
+}
+.restaurants_container_cart {
+  width: 100%;
+  height: 23%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+  transition: transform 0.4s ease-in-out 0.1s;
+}
+.restaurants_container_cart:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 0px #20c7edc6;
+}
+@media (min-width: 768px) {
+  .restaurants_container_cart {
+    width: 48.5%;
+    height: 242px;
+  }
+}
+@media (min-width: 992px) {
+  .restaurants_container_cart {
+    width: 24%;
+    height: 285px;
+  }
+}
+.restaurants_container_img {
+  width: 100%;
+  height: 68%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.restaurants_container_text {
+  margin-left: 18px;
+  margin-top: -7px;
+  width: 50%;
+}
+.restaurants_container_text_p_bold {
+  font-weight: 900;
+  white-space: nowrap;
+}
+.restaurants_container_text_p_secondaryP {
+  margin-top: -11px;
+}
+.restaurants_container_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.restaurants_container_bottom_icon {
+  margin-right: 26px;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.restaurants_container_new {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 90px;
+  height: 32px;
+  background-color: #99e2d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurants_container_new p {
+  color: #0e8f70;
+  font-weight: 500;
+}
+
+.heartUp {
+  background: linear-gradient(180deg, #ff78d9 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  opacity: 0;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .heartUp {
+    position: absolute;
+    right: 26.7px;
+    bottom: 26.9px;
+  }
+  .heartUp:hover {
+    animation: opacity 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .heartUp:hover + .heartDown {
+    animation: opacityOut 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .heartUp {
+    position: absolute;
+    right: 26px;
+    bottom: 34.5px;
+  }
+  .heartUp:hover {
+    animation: opacity 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .heartUp:hover + .heartDown {
+    animation: opacityOut 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
+@media (min-width: 992px) {
+  .heartUp {
+    position: absolute;
+    right: 26px;
+    bottom: 48.5px;
+  }
+  .heartUp:hover {
+    animation: opacity 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .heartUp:hover + .heartDown {
+    animation: opacityOut 0.7s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
+
+.fa-arrow-left {
+  position: absolute;
+  left: 23px;
+  font-size: 19px;
+  margin-top: -7px;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+}
+.image_top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containers {
+  margin-top: -50px;
+  background-color: #f2f2f2;
+}
+@media (min-width: 768px) {
+  .containers {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.globalContainer {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 1145px;
+  border-radius: 37px 37px 0 0;
+  margin-top: -53px;
+  position: sticky;
+}
+@media (min-width: 768px) {
+  .globalContainer {
+    height: auto;
+  }
+}
+.globalContainer_top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.globalContainer_top_h1 {
+  font-size: 30px;
+  width: 80%;
+  font-family: "Shrikhand", cursive;
+  font-weight: normal;
+  margin-left: 5%;
+}
+.globalContainer_top_icon {
+  font-size: 23px;
+  margin-right: 6%;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 52px;
+}
+@media (min-width: 768px) {
+  .menu {
+    width: 27%;
+    margin-left: 0%;
+  }
+}
+.menu_title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 23px;
+}
+.menu_title::after {
+  display: block;
+  content: "";
+  width: 45px;
+  height: 3px;
+  background: #99e2d0;
+  margin-top: 5px;
+}
+.menu_list {
+  /*background-color: rgb(0, 255, 217);*/
+  width: 90%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .menu_list {
+    width: 100%;
+  }
+}
+.menu_list_meal {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  border-radius: 17px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  transition: transform 1.5s ease-in-out;
+}
+.menu_list_meal_check {
+  display: none;
+  position: absolute;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  right: -1px;
+  padding: 0 13px;
+  height: 100%;
+  width: 9px;
+}
+.menu_list_meal:hover {
+  transform: scale(1.06);
+  box-shadow: 0px 0px 10px 0px #20c7edc6;
+}
+.menu_list_meal:hover .menu_list_meal_check {
+  display: inline;
+  animation: slide-left 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: right;
+  padding: 0 30px;
+}
+.menu_list_meal:hover .menu_list_meal_price {
+  padding-right: 70px;
+  transition: 0.7s ease-in-out;
+}
+.menu_list_meal:hover .menu_list_meal_check i {
+  animation: rotation 0.7s ease-in-out;
+}
+.menu_list_meal_contents {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 2%;
+  background-color: #a9dede;
+}
+.menu_list_meal_text {
+  width: auto;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 14px;
+}
+.menu_list_meal_text p {
+  margin-top: -11px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 300;
+}
+.menu_list_meal_text h3 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu_list_meal_price {
+  width: 53px;
+  height: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+.menu_list_meal_price_number {
+  width: auto;
+  margin-bottom: 17px;
+}
+.menu_list_meal_check {
+  display: none;
+  position: absolute;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  right: -2px;
+  padding: 0 13px;
+  height: 100%;
+  width: 9px;
+}
+
+.order {
+  width: 100%;
+  height: 200px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_button {
+  opacity: 1;
+  background: linear-gradient(180deg, #ff78d9 0%, #9356dc 100%);
+  color: white;
+  padding: 0 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-top: -26px;
+  border: none;
+  height: 51px;
+  width: 179px;
+  font-weight: 500;
+  transition: transform 0.7s ease-in-out 0.1s;
+}
+.order_button:hover {
+  box-shadow: 0px 0px 13px 0px #20c7edc6;
+  opacity: 0.85;
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.footer_menu {
+  position: relative;
+  margin-top: 259px;
+}
+
+.add {
+  height: 377px;
+}
+.add_4 {
+  height: 84px;
+}
+
+.footer_4 {
+  margin-top: 354px;
+}
+
+.fa-check-circle::before {
+  color: white;
+  background: #99E2D0;
+  height: 100%;
+}
+
+.heartUpMenu {
+  position: absolute;
+  right: 26.5px;
+  top: 34px;
+  background: #d141bf;
+  background: linear-gradient(89deg, #9356DC 35%, #FF79DA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.heartUpMenu {
+  position: absolute;
+  right: 26.7px;
+  bottom: 26.9px;
+}
+.heartUpMenu:hover {
+  animation: opacity 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.heartUpMenu:hover + .heartDown {
+  animation: opacityOut 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.fa-check-circle {
+  margin-top: 26px;
+  margin-left: -9px;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .main_menu {
+    margin-bottom: -259px;
+  }
+
+  .main_menu_note {
+    margin-bottom: -354px;
+  }
+}
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-animate {
+  background: #222222;
+  box-sizing: border-box;
+  font-size: 66px;
+  display: -webkit-inline-box;
+  padding: 14px;
+  border-radius: 7px;
+}
+
+.is-animate > div {
+  animation-name: style;
+  display: -webkit-inline-box;
+  color: #fff;
+  padding: 9px;
+  font-family: "Shrikhand", cursive;
+  box-shadow: #99E2D0 2px 2px 9px 2px;
+}
+
+.l {
+  animation: letterspacing 1s infinite alternate cubic-bezier(0.2, 0, 0, 1);
+}
+@media (max-width: 400px) {
+  .l {
+    font-size: 10px;
+  }
+}
+@media (min-width: 400px) and (max-width: 768px) {
+  .l {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .l {
+    font-size: 35px;
+  }
+}
+
+.word1 {
+  color: #9356DC;
+}
+
+.word2 {
+  color: #FF79DA;
+}
+
+.word3 {
+  color: #99E2D0;
+}
+
+.is-animate > div {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.is-animate > div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.is-animate > div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.is-animate > div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.is-animate > div:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.is-animate > div:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.is-animate > div:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.is-animate > div:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+@keyframes style {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    box-shadow: 0px 0px 0px 0px;
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes letterspacing {
+  0% {
+    filter: blur(0.1rem);
+  }
+  100% {
+    filter: blur(0.5rem);
+  }
+  to {
+    filter: blur(0rem);
+  }
+}
+@keyframes loader {
+  from {
+    z-index: 1000;
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+.load_title {
+  font-family: "Shrikhand", cursive;
+  color: white;
+}
+@media (max-width: 768px) {
+  .load_title {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .load_title {
+    font-size: 22px;
+  }
+}
+
+.loaderPage {
+  z-index: -2;
+  opacity: 0;
+  width: 100%;
+  animation: loader 4s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #222222;
+}
+
+.test h1 {
+  background: #201d1d;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Keyframe */
+@keyframes slide-left {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(-50px);
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacityOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.opacity-effect {
+  animation: opacity 1s both;
+}
+
+.meal1 {
+  animation-delay: 0.1s;
+}
+
+.meal2 {
+  animation-delay: 0.2s;
+}
+
+.meal3 {
+  animation-delay: 0.3s;
+}
+
+.meal4 {
+  animation-delay: 0.4s;
+}
+
+.meal5 {
+  animation-delay: 0.5s;
+}
+
+.meal6 {
+  animation-delay: 0.6s;
+}
+
+.meal7 {
+  animation-delay: 0.7s;
+}
+
+.meal8 {
+  animation-delay: 0.8s;
+}
+
+.meal9 {
+  animation-delay: 0.9s;
+}
+
+/*# sourceMappingURL=style.css.map */
