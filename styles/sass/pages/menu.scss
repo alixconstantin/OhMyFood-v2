@@ -96,7 +96,10 @@
          }
 
         &_meal {
-            width: 100%;
+            @media (max-width: 768px){
+                width: 83%;
+             }
+            width: 89%;
             height: 30%;
             background-color: white;
             border-radius: 17px;
@@ -119,9 +122,8 @@
                 padding: 0 30px;
                 display: inline;
                 transition: all 0.7s ease-in-out;
-              
                 transform: translateX(50px);
-
+                /* Carlos Sousa Caldas came here*/
               }
             
             &:hover{
@@ -141,7 +143,7 @@
             }
            
             &:hover &_check i {
-                animation:rotation 1s ease-in-out;      
+                animation:rotation 0.8s ease-in-out;      
             }
 
 

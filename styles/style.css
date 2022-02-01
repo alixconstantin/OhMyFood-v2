@@ -852,7 +852,7 @@ input:focus {
   }
 }
 .menu_list_meal {
-  width: 100%;
+  width: 89%;
   height: 30%;
   background-color: white;
   border-radius: 17px;
@@ -865,6 +865,11 @@ input:focus {
   transition: all 1s ease-in-out;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .menu_list_meal {
+    width: 83%;
+  }
+}
 .menu_list_meal_check {
   position: absolute;
   background: #99E2D0;
@@ -876,6 +881,7 @@ input:focus {
   display: inline;
   transition: all 0.7s ease-in-out;
   transform: translateX(50px);
+  /* Carlos Sousa Caldas came here*/
 }
 .menu_list_meal:hover {
   transform: scale(1.06);
@@ -891,7 +897,7 @@ input:focus {
   transition: all 0.7s ease-in-out;
 }
 .menu_list_meal:hover .menu_list_meal_check i {
-  animation: rotation 1s ease-in-out;
+  animation: rotation 0.8s ease-in-out;
 }
 .menu_list_meal_contents {
   display: flex;
