@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
 
-.cont{
-width:100%;
-height:100%;
-display:flex;
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-
+/*
 .is-animate {
         background: #222222;
     box-sizing: border-box;
@@ -21,7 +21,6 @@ display:flex;
 .is-animate > div {
     animation-name: style;
     display: -webkit-inline-box;
-
     color: #fff;
     padding: 9px;
     font-family: 'Shrikhand', cursive;
@@ -43,16 +42,17 @@ display:flex;
 }
   
 }
-
-.word1{
-  color:#9356DC;
+*/
+.word1 {
+  color: #9356dc;
 }
-.word2{
-  color:#FF79DA;
+.word2 {
+  color: #ff79da;
 }
-.word3{
-  color:#99E2D0;
+.word3 {
+  color: #99e2d0;
 }
+/*
 .is-animate > div {
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -107,58 +107,67 @@ display:flex;
         filter: blur(0rem);
   }
 }
-
+*/
 
 @keyframes loader {
   from {
     z-index: 1000;
     opacity: 0;
   }
-  10%{
+  10% {
     opacity: 0.8;
   }
-  45%{
-    opacity: 1;
-  }
-  
-  55%{
+  45% {
     opacity: 1;
   }
 
-  90%{
+  55% {
+    opacity: 1;
+  }
+
+  90% {
     opacity: 0.8;
   }
 
   to {
     opacity: 0;
     z-index: 0;
-
   }
 }
 
-.load_title{
-  font-family: 'Shrikhand', cursive;
-  color:white;
+.load_title {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  animation: rotating 2s linear infinite;
   @media (max-width: 768px) {
-     font-size:14px; 
+    font-size: 14px;
   }
-  @media (min-width: 768px) and (max-width: 992px){
-      font-size:22px;
+  @media (min-width: 768px) and (max-width: 992px) {
+    font-size: 22px;
   }
-  
 }
-.loaderPage{
- z-index: -2;
+
+.loaderPage {
+  z-index: -2;
   opacity: 0;
   width: 100%;
   animation: loader 4s;
   position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #222222;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #222222;
 }
-
+/*
 .test h1{
   background: #201d1d;
+}
+*/
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
